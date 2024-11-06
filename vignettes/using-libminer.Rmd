@@ -14,9 +14,16 @@ knitr::opts_chunk$set(
 )
 ```
 
+`lib_summary` is a really great function
 ```{r setup}
 library(libminer)
+
+lib_summary()
 ```
-```{r setup}
-# Just a test
+
+You can also use `lib`:
+```{r}
+lib()
 ```
+
+This concludes our vignette. 
